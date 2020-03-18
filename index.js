@@ -1,28 +1,21 @@
-/*OOP pillars:
-1: encapsulation 
-2: abstraction 
-3: inheritance
-4: polymorphism
-*/
-
-//encapsulation 
-
-/*let baseSalary = 30_000;
-let overtime = 10;
-let rate = 20; 
-
-function getWage(baseSalary, overtime, rate) {
-    return baseSalary + (overTime * rate);
-} */
-
-let employee = {
-    baseSalary: 30_000,
-    overtime: 10, 
-    rate: 20,
-    getWage: function() {
-        return this.baseSalary + (this.overtime * this.rate);
+function createCircle(radius){
+  return {
+    radius,
+    draw: function(){
+        console.log('draw');
     }
-};
-employee.getWage();
+  };
+}
+const circle = createCircle(1);
 
-//oop encapsulation removes parameters and makes code cleaner
+//constructor Function 
+function Circle(radius) {
+    console.log('this', this);
+    this.radius = radius;
+    this.draw = function() {
+        console.log('draw');
+        
+    }
+}
+
+const another = new Circle(1); 
