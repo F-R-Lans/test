@@ -80,3 +80,11 @@ employee.getWage();
 //inheritance helps eliminate redundant code by defining several elements as one and having others inherit
 
 //polymorphism (many forms) refactors switch/case statements 
+
+
+
+list for remembering 
+
+1: dot notation 
+2: "this"
+
