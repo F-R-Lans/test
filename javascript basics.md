@@ -83,11 +83,41 @@ employee.getWage();
 
 
 \" will "escape" quotes so it won't be considered the end
+single quotes ', and backticks do the same. 
 
+let and var are almost the same, the scope does change, learn more. 
 
+/***** 
+CODE OUTPUT 
+\' single quote
+\" double quote 
+\\ backslash
+\n newline
+\r carriage return (what)
+\t tab
+\b backspace 
+\f form feed 
+
+ex: var myStr = "FirstLine\n\t\\SecondLine\nThirdLine" will log three seperate lines. 
+
+ADD A SPACE WHEN CONCOTINATING 
 
 list for remembering 
 
 1: dot notation 
 2: "this", is weird
 
+madlibs ex 
+
+function wordBlanks(myNoun, myAjective, myVerb myAdverb)
+
+var result = "";
+result += "the " + myAdjective + " " + myNoun + " " + myVerb + " to the store " + myAdverb.;
+
+console.log(wordBlanks("dog", "big", "ran", "quickly"));
+
+array uses brackets [], use comma's with any datatype 
+
+nest arrays with more brackets 
+
+logging works the same
