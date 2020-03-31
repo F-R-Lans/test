@@ -86,5 +86,5 @@ employee.getWage();
 list for remembering 
 
 1: dot notation 
-2: "this"
+2: "this", is weird
 
