@@ -82,6 +82,9 @@ employee.getWage();
 //polymorphism (many forms) refactors switch/case statements 
 
 
+\" will "escape" quotes so it won't be considered the end
+
+
 
 list for remembering 
 
