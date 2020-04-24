@@ -121,3 +121,13 @@ array uses brackets [], use comma's with any datatype
 nest arrays with more brackets 
 
 logging works the same
+
+after here i should have the basic JS knowledge for Stemwijzer, look into specifics
+
+.push appends to end of array 
+
+var array_1 ["matt, "tim"];
+array_1.push(["sad, happy]);
+array_1 now says ["matt", "tim", "sad", "happy"],
+
+.pop removes an item from an array 
